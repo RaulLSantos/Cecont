@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /assets/*.map
+Disallow: /*.map$
+
+Sitemap: https://www.cecont.cnt.br/sitemap.xml

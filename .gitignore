@@ -1,0 +1,36 @@
+################################################################################
+# Ignorados locais e arquivos sensiveis
+################################################################################
+
+.vs/
+.agents/
+.codex/
+node_modules/
+
+# Build estatico versionado para deploy via cPanel Git Version Control.
+# A HostGator/cPanel copia somente dist/ para public_html/cecont/.
+dist/**/*.map
+
+# Variaveis, logs e arquivos locais
+.env
+.env.*
+!.env.example
+*.local
+*.log
+logs/
+*.tsbuildinfo
+preview-*.png
+.deploy-sim/
+
+# Chaves e credenciais privadas
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+deploy-keys/
+private-keys/

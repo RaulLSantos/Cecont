@@ -1,0 +1,19 @@
+{
+  "name": "CECONT Contabilidade Empresarial",
+  "short_name": "CECONT",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#286ccd",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}

@@ -58,7 +58,7 @@ export default function Reviews() {
               <h3 className="font-heading text-xl font-bold text-ds-blueDark">{review.title}</h3>
               <p className="mt-4 text-sm leading-7 text-slate-700">{review.text}</p>
               <div className="mt-5 flex items-center justify-between gap-4">
-                <p className="text-xs font-bold uppercase tracking-[0.18em] text-brand-blue">{review.meta}</p>
+                
                 <a
                   href={mapsUrl}
                   className="text-sm font-bold text-ds-blueDark transition hover:text-brand-blue"

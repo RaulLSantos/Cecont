@@ -7,9 +7,11 @@
     "dev": "vite --host 0.0.0.0",
     "typecheck": "tsc -b",
     "build": "tsc -b && vite build",
+    "build:pages": "npm run build && node scripts/prepare-github-pages.mjs",
     "preview": "vite preview --host 0.0.0.0",
     "test:qa": "node scripts/qa-scenarios.mjs",
-    "test:deploy": "node scripts/verify-cpanel-deploy.mjs"
+    "test:deploy": "node scripts/verify-cpanel-deploy.mjs",
+    "test:pages": "node scripts/verify-github-pages.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^5.1.2",

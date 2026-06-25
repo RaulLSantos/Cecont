@@ -26,12 +26,15 @@ export default function SEO({
   noIndex = false
 }: SEOProps) {
   useEffect(() => {
+    const isStagingHost = window.location.hostname.endsWith("github.io");
+    const robotsContent = noIndex || isStagingHost ? "noindex, nofollow" : "index, follow";
+
     document.title = title;
     setMeta('meta[name="description"]', "content", description);
     setMeta('meta[property="og:title"]', "content", title);
     setMeta('meta[property="og:description"]', "content", description);
     setMeta('link[rel="canonical"]', "href", canonical);
-    setMeta('meta[name="robots"]', "content", noIndex ? "noindex, follow" : "index, follow");
+    setMeta('meta[name="robots"]', "content", robotsContent);
   }, [canonical, description, noIndex, title]);
 
   return null;

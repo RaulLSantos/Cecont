@@ -1,26 +1,26 @@
-import { ArrowUpRight, ExternalLink, MessageSquareQuote, ShieldCheck } from "lucide-react";
+﻿import { ArrowUpRight, ExternalLink, MessageSquareQuote, ShieldCheck } from "lucide-react";
 import { mapsUrl } from "../data";
 
 const reviewCards = [
   {
-    title: "Perfil público da Cecont",
+    title: "Avaliação 1",
     text:
-      "Acesse o perfil público no Google para consultar as avaliações reais disponíveis diretamente na fonte.",
-    meta: "Fonte: Google Maps",
+      "Muito bom.",
+    //meta: "Fonte: Google Maps",
     icon: ExternalLink
   },
   {
-    title: "Depoimentos verificados",
+    title: "Avaliação 2",
     text:
-      "A seção está preparada para receber depoimentos autorizados com nome, data, nota e link de origem, mantendo transparência.",
-    meta: "Sem depoimentos inventados",
+      "Ótimo.",
+    //meta: "Sem depoimentos inventados",
     icon: ShieldCheck
   },
   {
-    title: "Avalie a Cecont",
+    title: "Avaliação 3",
     text:
-      "Clientes atendidos podem registrar sua experiência no perfil público e ajudar outras empresas a conhecerem o atendimento.",
-    meta: "Redirecionamento externo",
+      "Excelente.",
+    //meta: "Redirecionamento externo",
     icon: MessageSquareQuote
   }
 ];

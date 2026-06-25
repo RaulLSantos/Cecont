@@ -34,8 +34,7 @@ export default function Reviews() {
             <span className="eyebrow">Avaliações</span>
             <h2 className="section-title">O que dizem sobre a Cecont</h2>
             <p className="section-subtitle">
-              Depoimentos e avaliações públicas ajudam novos clientes a entenderem a experiência de atendimento antes de
-              falar com o escritório.
+              Depoimentos e avaliações.
             </p>
           </div>
           <a href={mapsUrl} className="btn-primary shrink-0" target="_blank" rel="noopener noreferrer">
